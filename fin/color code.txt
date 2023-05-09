@@ -1,0 +1,32 @@
+yellow      #ffd728
+blue        #11bacf
+white       #ffffff
+
+
+
+
+blue        
+            #0a707c
+            #0c8291
+            #0e95a6
+            #0fa7ba
+            #11BACF
+            #13d2e9
+            #2cd8ee
+            #46ddf0
+            #60e2f2
+
+
+yellow
+
+            #b19000
+            #cfa800
+            #ecc000
+            #ffd20a
+            #FFD728
+            #ffdb3d
+            #ffdf53
+            #ffe368
+            #ffe77e
+
+

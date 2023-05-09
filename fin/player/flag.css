@@ -1,0 +1,404 @@
+.head-img {
+    background-image: url('../img/flagship.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+.head-img div {padding: 3vmin 5vmin;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.head-img div h1 {
+    font-size: 12vh;
+    font-weight: lighter;
+}
+
+.fs-intro {
+    padding: 3vw 5vw;
+}
+
+.div-link {
+    margin: 0px 3vw;
+}
+
+.grp-links {
+    padding: 10px 0px 0px 25px;
+}
+
+.grp-links .links {
+    font-size: 18px;
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.grp-links .links i {
+    font-size: 20px;
+    padding-right: 8px;
+}
+
+.grp-links .links p {
+    display: inline;
+}
+
+
+/*tabs style*/
+
+.tab {
+    width: auto;
+    overflow: hidden;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.tab button {
+    display: block;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 12px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    background-color: #f1f1f1;
+    margin: 2px 1px;
+    font-weight: bold;
+}
+
+.tab button:hover {
+    color: #349cfd;
+}
+
+.tab .active {
+    background-color: #349cfd;
+    color: #f1f1f1;
+}
+
+.tab .active:hover {
+    background-color: #349cfd;
+    color: #f1f1f1;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 0px;
+}
+
+
+/*accordion*/
+
+.div-accd {
+    position: relative;
+}
+
+.accordion {
+    background-color: transparent;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    transition: all 0.4s ease;
+}
+
+.accordion .but-flx {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.accordion .but-flx div {
+    display: inline;
+}
+
+.accordion .til {
+    transition: all 0.3s ease;
+}
+
+.accordion .but-flx .icon {
+    font-size: 18px;
+    font-weight: bold;
+    display: inline;
+    transition: all 0.4s ease;
+}
+
+.accordion:hover .icon {
+    color: #262626;
+}
+
+.accordion.active .but-flx .icon {
+    transform: rotateZ(90deg);
+    color: #000;
+}
+
+.accordion.active .til {
+    opacity: 0;
+}
+
+.div-accd .h-lin {
+    margin: 0px 1% 0px;
+    position: absolute;
+    border: 0;
+    width: 98%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 2px;
+    background: #fd1a55;
+    background-image: -webkit-linear-gradient(0deg, #349cfd, #fd1a55);
+    background-image: -moz-linear-gradient(0deg, #349cfd, #fd1a55);
+    background-image: -ms-linear-gradient(0deg, #349cfd, #fd1a55);
+    background-image: -o-linear-gradient(0deg, #349cfd, #fd1a55);
+}
+
+.f-lin {
+    margin: 0px 0px;
+    position: absolute;
+    border: 0;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 2px;
+    background: #fd1a55;
+    background-image: -webkit-linear-gradient(0deg, #349cfd, #fd1a55);
+    background-image: -moz-linear-gradient(0deg, #349cfd, #fd1a55);
+    background-image: -ms-linear-gradient(0deg, #349cfd, #fd1a55);
+    background-image: -o-linear-gradient(0deg, #349cfd, #fd1a55);
+}
+
+.panel {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.img-flx {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.img-flx .imge {
+    width: 75vw;
+    margin: 18px;
+}
+
+.img-flx img {
+    width: 75vw;
+}
+
+.img-flx .capti {
+    width: 80vw;
+    text-align: center;
+}
+
+.flx-tab {
+    border-radius: 5px;
+    margin: 18px 25px;
+    border: 2px solid black;
+}
+
+.flx-tab .top {
+    background-color: #000;
+    font-size: 18px;
+    color: #f1f1f1;
+    border-top: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.flx-tab .links {
+    font-size: 18px;
+    padding: 12px 15px;
+    border-top: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.flx-tab .links .right {
+    max-width: 70%;
+}
+
+.flx-tab .links:nth-child(1) {
+    border-top: 0px solid black;
+}
+
+.flx-tab .links i {
+    font-size: 20px;
+    padding-right: 8px;
+}
+
+.flx-tab .links div:nth-child(1) {
+    padding-right: 15px;
+}
+
+.flx-tab .links p {
+    display: inline;
+}
+
+.card-hover:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 0px 4px 1px rgb(0 0 0 / 30%);
+}
+
+.h-lin {
+    margin: 8px 10% 0px;
+    border: 0;
+    width: 80%;
+    height: 5px;
+    background: #fd1a55;
+    background-image: -webkit-linear-gradient(0deg, #349cfd, #fd1a55);
+    background-image: -moz-linear-gradient(0deg, #349cfd, #fd1a55);
+    background-image: -ms-linear-gradient(0deg, #349cfd, #fd1a55);
+    background-image: -o-linear-gradient(0deg, #349cfd, #fd1a55);
+}
+
+.hed .h-lin {
+    position: inherit;
+    margin: 8px 10% 0px;
+    border: 0;
+    width: 80%;
+    height: 5px;
+    background: #fd1a55;
+    background-image: -webkit-linear-gradient(0deg, #349cfd, #fd1a55);
+    background-image: -moz-linear-gradient(0deg, #349cfd, #fd1a55);
+    background-image: -ms-linear-gradient(0deg, #349cfd, #fd1a55);
+    background-image: -o-linear-gradient(0deg, #349cfd, #fd1a55);
+}
+
+.grp-v-line {
+    width: 100%;
+    position: relative;
+    padding: 0px 0px 0px 15px;
+}
+
+.lv-lin {
+    position: absolute;
+    left: 0px;
+    top: -15%;
+    height: 130%;
+    width: 5px;
+    border: 0;
+    background: #fd1a55;
+    background-image: -webkit-linear-gradient(90deg, #349cfd, #fd1a55);
+    background-image: -moz-linear-gradient(90deg, #349cfd, #fd1a55);
+    background-image: -ms-linear-gradient(90deg, #349cfd, #fd1a55);
+    background-image: -o-linear-gradient(90deg, #349cfd, #fd1a55);
+}
+
+.lap-dis-tab {
+    display: block;
+}
+
+.phn-dis-tab {
+    display: none;
+}
+
+@media screen and (orientation:portrait) {
+    .head-img div h1 {
+        font-size: 8vh;
+        font-weight: lighter;
+    }
+}
+
+@media screen and (orientation:landscape) {}
+
+@media screen and (max-width:850px) {
+    .ph-lin {
+        margin: 8px 10% 0px;
+        border: 0;
+        width: 80%;
+        height: 5px;
+        background: #fd1a55;
+        background-image: -webkit-linear-gradient(0deg, #349cfd, #fd1a55);
+        background-image: -moz-linear-gradient(0deg, #349cfd, #fd1a55);
+        background-image: -ms-linear-gradient(0deg, #349cfd, #fd1a55);
+        background-image: -o-linear-gradient(0deg, #349cfd, #fd1a55);
+    }
+    .lv-lin {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        height: 0%;
+        width: 0px;
+        border: 0;
+        background: #fd1a55;
+        background-image: -webkit-linear-gradient(90deg, #349cfd, #fd1a55);
+        background-image: -moz-linear-gradient(90deg, #349cfd, #fd1a55);
+        background-image: -ms-linear-gradient(90deg, #349cfd, #fd1a55);
+        background-image: -o-linear-gradient(90deg, #349cfd, #fd1a55);
+    }
+}
+
+@media screen and (max-width:900px) {
+    .lap-dis-tab {
+        display: none;
+    }
+    .phn-dis-tab {
+        display: block;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .fs-intro {
+        padding: 3vh 5vw;
+    }
+    .flx-tab .links {
+        font-size: 16px;
+        padding: 12px 15px;
+    }
+    .flx-tab .links .right {
+        max-width: 70%;
+    }
+    .flx-tab {
+        border-radius: 5px;
+        margin: 18px 0px;
+    }
+    .grp-links {
+        padding: 10px 0px 0px 0px;
+    }
+    .img-flx h1,
+    .img-flx h2,
+    .img-flx h3,
+    .img-flx h4 {
+        font-size: 16px !important;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .flx-tab .links {
+        font-size: 14px;
+        padding: 12px 15px;
+    }
+}

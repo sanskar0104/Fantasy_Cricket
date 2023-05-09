@@ -1,0 +1,31 @@
+*Selecting your team
+You create a team consisting of 11 players from the teams in action in the match. You need to select any 11 players from the given list of :
+1. batsmen
+2. bowlers
+3. all-rounders
+4.wicket keepers
+
+*Budget Restriction
+There is a restriction or budget limitation, and you can select any 11 players irrespective of their teams.
+Daily Fantasy is a match specific game so you can only select players from the teams that will be playing in the match.
+By the end of that match, your team will expire.
+However, you can then select a new team of 11 players for the upcoming matches. 
+Also, you can create teams for future matches that are open for team selection.
+
+*Managing your team
+Unlimited changes can be made to your team before the deadline of the match.
+
+*Deadlines
+Team selection will be closed at the scheduled start of the match.
+
+*Live matches
+Once the match is live, you will be able to see your selected players score points depending on the performance.
+
+*POINT-SCORING
+During the tournament, your players will be allocated points based on their performance.
+Once the points are calculated after an hour at the end of the match, you will be able to see your total score for the match depending on your selected player’s performance.
+
+*No Match
+Events in the super over do not count in the point scoring.
+If a match is called off, the match will not be counted and no points will be scored. No winner will be declared for an abandoned match.
+
